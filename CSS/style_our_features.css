@@ -1,0 +1,53 @@
+header{
+	background-image: linear-gradient(rgb(140, 60, 35,0.8),rgb(84, 2, 2,1));
+}
+header a{
+	color: white;
+}
+.school_name{
+	color: white;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+#nav-buttons:hover{
+	color: yellow;
+}
+/*************************************************************** Features ************************************************************/
+
+/*************************************************************** Responsive Part ************************************************************/
+
+
+@media only screen and (max-width: 1200px){
+	
+}
+@media only screen and (max-width: 1023px){
+	.our-features-a{
+		margin-top:3%;
+	}
+
+}
+
+@media only screen and (max-width: 767px){
+	
+	
+}
+@media only screen and (max-width: 480px){
+	header a{
+		font-size: 90%;
+	}
+	.school-name{
+		font-size: 120%;
+	}
+	
+
+}
+@media only screen and (max-width: 320px){
+	header a{
+		font-size: 80%;
+	}
+	.school-name{
+		font-size: 100%;
+	}
+}

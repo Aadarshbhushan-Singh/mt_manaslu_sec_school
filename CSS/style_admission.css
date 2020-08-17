@@ -1,0 +1,148 @@
+header{
+	background-image: linear-gradient(rgb(140, 60, 35,0.8),rgb(84, 2, 2,1));
+}
+header a{
+	color: white;
+}
+.school_name{
+	color: white;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+#nav-buttons:hover{
+	color: yellow;
+}
+/*************************************************************** Form ************************************************************/
+.form_section{
+	padding: 3% 2%;
+	background-color: rgb(247, 247, 247);
+}
+.upper_form, .lower_form{
+	margin-left: 10%;
+}
+.form_heading{
+	font-size: 200%;
+	text-align: center;
+	color: red;
+	margin: 1%;
+
+}
+hr{
+	margin: 1% auto;
+}
+input{
+	border: 0.1px solid gray;
+	border-radius: 4px;
+	margin-bottom: 1%;
+	margin-top: 1%;
+}
+#upper_form_left_heading{
+	font-size: 150%;
+	color: red;
+
+	/*text-align: center;*/
+}
+#upper_form_right_heading{
+	font-size: 150%;
+	color: red;
+	/*text-align: center;*/
+}
+.lower_form_heading{
+	font-size: 140%;
+	color: red;
+}
+.upper_form input{
+	width: 50%;
+}
+#gender_input{
+	width: 5%;
+}
+#special_child_input{
+	width: 10%;
+}
+.lower_form input{
+	width: 40%;
+}
+.upper_form_right input{
+	width: 30%;
+}
+.buttons{
+	text-align: center;
+}
+#buttons{
+	font-size: 150%;
+	padding: 0.1% 1%;
+}
+
+
+
+
+
+/*************************************************************** Responsive Part ************************************************************/
+
+
+@media only screen and (max-width: 1200px){
+	
+}
+@media only screen and (max-width: 1023px){
+	.our-features-a{
+		margin-top:3%;
+	}
+	body{
+		font-size: 90%;
+	}
+
+}
+
+@media only screen and (max-width: 767px){
+	.col{
+		width: 100%;
+	}
+	.upper_form input{
+		width: 80%;
+	}
+	#gender_input{
+		width: 10%;
+	}
+	#special_child_input{
+		width: 15%;
+	}
+	.lower_form input{
+		width: 80%;
+	}
+	.upper_form_right input{
+		width: 80%;
+	}
+	#buttons{
+		font-size: 150%;
+		padding: 0.1% 1%;
+		margin: 2% 1%;
+	}
+	#quote{
+		font-size: 180%;
+	}
+	
+}
+@media only screen and (max-width: 480px){
+	header a{
+		font-size: 90%;
+	}
+	.school-name{
+		font-size: 120%;
+	}
+	#quote{
+		font-size: 150%;
+	}
+	
+
+}
+@media only screen and (max-width: 320px){
+	header a{
+		font-size: 80%;
+	}
+	.school-name{
+		font-size: 100%;
+	}
+}

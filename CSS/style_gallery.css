@@ -1,0 +1,98 @@
+header{
+	background-image: linear-gradient(rgb(140, 60, 35,0.8),rgb(84, 2, 2,1));
+}
+header a{
+	color: white;
+}
+.school_name{
+	color: white;
+}
+.row{
+	max-width: 1140px;
+	margin: 0 auto;
+}
+#nav-buttons:hover{
+	color: yellow;
+}
+/***************************************** Images ****************************************************/
+.gallery_heading h3{
+	margin: 2%;
+	font-family: 'Pacifico' , cursive;
+	color: red;
+	font-size: 180%;
+	text-align: center;	
+}
+.images{
+	margin-left: 3%;
+}
+.images img{
+	width: 48%;
+	float: left;
+	margin: 0.2%;
+	filter: grayscale(30%) brightness(80%);
+	padding: 0.1%;
+	border: 2px inset grey;
+}
+.images img:hover{
+	filter: grayscale(0%) brightness(105%) contrast(105%);
+	transition: all 0.2s;
+}
+/*************************************************************** Responsive Part ************************************************************/
+
+
+@media only screen and (max-width: 1200px){
+	.images img{
+		filter: none;
+	}
+}
+@media only screen and (max-width: 1023px){
+	.our-features-a{
+		margin-top:3%;
+	}
+	.gallery_heading{
+		font-size: 90%;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.image_part img{
+		margin-top: 5%;
+		width: 20%;
+	}
+	.gallery_heading{
+		font-size: 80%;
+	}	
+}
+@media only screen and (max-width: 480px){
+	header a{
+		font-size: 90%;
+	}
+	.school-name{
+		font-size: 120%;
+	}
+	.image_part img{
+		display: none;
+	}
+	.gallery_heading{
+		font-size: 60%;
+	}
+	
+	
+
+}
+@media only screen and (max-width: 320px){
+	header a{
+		font-size: 80%;
+	}
+	.school-name{
+		font-size: 100%;
+	}
+	.images img{
+		width: 95%;
+		justify-content: center;
+		margin-left: 1%;
+	}
+	.gallery_heading{
+		font-size: 50%;
+	}
+}
