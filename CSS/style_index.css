@@ -202,7 +202,11 @@ header a{
 	}
 	.history_goal_admission{
 		margin-left: 10%;
-		font-size: 80%;
+		font-size: 90%;
+	}
+	.admission, .goals_mission, .history{
+		padding-top: 8%;
+		padding-bottom: 8%;
 	}
 	#move-left{
 		margin-left: 1.5%;
@@ -223,8 +227,11 @@ header a{
 		padding-bottom: 3%;
 	}
 	.container_message{
-		margin: 6% 4% 6% 4%;
+		margin: 4% 2% 4% 2%;
 		font-size: 85%;
+	}
+	.message_paragraph{
+		font-size: 100%;
 	}
 	.principal_image img{
 		width: 30%;
@@ -277,19 +284,24 @@ header a{
 		margin-top: 2%;
 		margin-bottom: 2%;
 	}
+	.admission, .goals_mission, .history{
+		padding-top: 18%;
+		padding-bottom: 18%;
+	}
 	.learn_more{
 		padding-top: 5%;
 	}
 	#move-left{
 		margin-left: 0%;
 	}
+	.message_paragraph{
+		font-size: 90%;
+		line-height: 150%;
+	}
 	.message{
 		border: 2px inset red;
 		border-bottom-right-radius: 5%;
 		border-top-left-radius: 5%;
-	}
-	.container_message{
-		font-size: 65%;
 	}
 	#why-mt-manaslu-heading{
 		font-size: 130%;
