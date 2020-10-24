@@ -1,2 +1,9 @@
 #) Fill in the number of students in history part.
 #) Correct the Hisotry to History
+
+Left to do:
+1) Replace principal's photo in home page.
+2) Post instagram link to footer of hisotry and index.
+3) How many students --> in history page.
+4) Add in the achievements.
+5) Go to office and click photo of batches 67-76 except (73 & 72)
